@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 87%;
+  margin: 0 auto;
+}
+
+.MuiOutlinedInput-input{
+  /* padding: 17.5px 14px !important; */
+  font-size: 13px !important;
+}
+
+.delete-button {
+  transition: opacity 0.2s ease; /* Opasiteness (opacity) changing smoothly for 0.3 seconds */
+  
+}
+
+.delete-button:hover {
+  opacity: 1; /* Hover qilganda opasiteness qiymatini 1 ga o'rnatamiz (tulaydi) */
+}
